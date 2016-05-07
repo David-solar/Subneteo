@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SubnettingApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sobre_desarrollador">Sobre el desarrollador</string>
+    <string name="desarrollador">Desarrolladores:\n
+        David Flores\n
+        Guadalupe Borjas\n
+        \n
+        SubnettingApp\n
+        Aplicación en desarrollo
+
+    </string>
+</resources>
