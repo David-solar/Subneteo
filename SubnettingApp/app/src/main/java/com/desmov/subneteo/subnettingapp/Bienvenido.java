@@ -1,5 +1,6 @@
 package com.desmov.subneteo.subnettingapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Bienvenido extends AppCompatActivity implements View.OnClickListener{
 
@@ -59,6 +61,10 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
 
         switch (id)
         {
+
+            case R.id.inicio:
+                break;
+
             case R.id.action_settings:
                 break;
 
@@ -94,7 +100,17 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v)
     {
 
+        switch (v.getId())
+        {
+            case R.id.btnSobreDesarrollador:
+                Toast.makeText(getApplicationContext(),"Datos sobre el desarrollador", Toast.LENGTH_SHORT).show();
+                Intent in_acceso = new Intent(Bienvenido.this,sobreDesarrollador.class);
+                startActivity(in_acceso);
+                break;
 
+            case R.id.btnSubneteo:
+                break;
+        }
 
     }
 }
