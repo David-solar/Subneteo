@@ -21,6 +21,14 @@
         <activity
             android:name=".sobreDesarrollador"
             android:label="@string/title_activity_sobre_desarrollador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".subneteoIp"
+            android:label="@string/title_activity_subneteo_ip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".subneteoPrefijo"
+            android:label="@string/title_activity_subneteo_prefijo"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

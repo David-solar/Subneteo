@@ -10,4 +10,6 @@
         Aplicación en desarrollo
 
     </string>
+    <string name="title_activity_subneteo_ip">Subneteo</string>
+    <string name="title_activity_subneteo_prefijo">Subneteo</string>
 </resources>
