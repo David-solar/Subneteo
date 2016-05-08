@@ -44,6 +44,7 @@
             android:inputType="number"
             android:ems="10"
             android:id="@+id/etPre"
+            android:maxLength="2"
             android:layout_row="0"
             android:layout_column="1"
             android:textSize="25dp" />

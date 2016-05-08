@@ -46,6 +46,8 @@ public class subneteoPrefijo extends AppCompatActivity implements View.OnClickLi
         iniciar.setOnClickListener(this);
         agregar.setOnClickListener(this);
 
+        iniciar.setEnabled(false);
+
     }
 
     @Override
@@ -63,7 +65,7 @@ public class subneteoPrefijo extends AppCompatActivity implements View.OnClickLi
                     System.out.println("********************************************************");
                     for(int i = 0; i < Metodos.prefijos.size(); i++)
                     {
-                        System.out.println(i + "-" + Metodos.prefijos.get(i));
+                        System.out.println(Metodos.prefijos.get(i));
                     }
                 }
                 else
@@ -81,11 +83,20 @@ public class subneteoPrefijo extends AppCompatActivity implements View.OnClickLi
                 }
                 else
                 {
+                    int p = Integer.parseInt(casilla.getText().toString());
 
-                    Metodos.prefijos.add(Integer.parseInt(casilla.getText().toString()));
-                    System.out.println(Metodos.prefijos.size() + " ***************************");
+                    if(met.validarPrefijo(p))
+                    {
+                        Metodos.prefijos.add(p);
+                        ventanaDialogo(casilla, agregar);
+                    }
+                    else
+                    {
+                        ventanaDialogo(casilla);
+                    }
 
-                    ventanaDialogo(casilla, agregar);
+                    //System.out.println(Metodos.prefijos.size() + " ***************************");
+
                 }
 
                 break;
@@ -114,6 +125,25 @@ public class subneteoPrefijo extends AppCompatActivity implements View.OnClickLi
             {
                 et.setEnabled(false);
                 btn.setEnabled(false);
+                iniciar.setEnabled(true);
+            }
+        });
+
+        Dialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void ventanaDialogo(final EditText et)
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Alerta");
+        builder.setMessage("Prefijo no valido\nIngresa valores\nmayor a 0 y menor a 33");
+        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener()
+        {
+            @Override
+            public void onClick(DialogInterface dialog, int which)
+            {
+                et.setText(null);
             }
         });
 
