@@ -109,6 +109,9 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
                 break;
 
             case R.id.btnSubneteo:
+                Toast.makeText(getApplicationContext(),"Iniciaste el Subneteo", Toast.LENGTH_SHORT).show();
+                Intent subIp = new Intent(Bienvenido.this,subneteoIp.class);
+                startActivity(subIp);
                 break;
         }
 

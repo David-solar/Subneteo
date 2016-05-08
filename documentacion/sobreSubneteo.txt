@@ -6,3 +6,6 @@ Es la acción de dividir una red IP física en subredes lógicas o más pequeña
 
 ¿Cuál es el objetivo del subneteo?
 Mejorar el performance de la red a través de una mejor administración, control del tráfico y seguridad al segmentar la red por función. 
+
+>>conceotis basicos
+los archvos que te va a pasar lupita
