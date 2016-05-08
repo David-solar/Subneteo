@@ -20,6 +20,7 @@ public class Metodos
 {
 
     public static ArrayList<Integer> prefijos = new ArrayList<>();
+    public static ArrayList<Integer> ip = new ArrayList<>();
 
     public void ordenarPrefijos()
     {
@@ -56,6 +57,21 @@ public class Metodos
 
     }
 
+    public boolean validarHocteto(int numero)
+    {
+        boolean band = false;
+
+        if(validarNumero(numero))
+        {
+            if((numero > -1) && (numero < 256))
+            {
+                band = true;
+            }
+        }
+
+        return band;
+    }
+
     public boolean validarNumero(int numero)
     {
         String n = String.valueOf(numero);
@@ -73,6 +89,8 @@ public class Metodos
             return false;
         }
     }
+
+
 
 
 
