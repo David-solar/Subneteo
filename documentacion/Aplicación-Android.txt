@@ -1,0 +1,74 @@
+﻿Aplicación Android
+“SubnettingApp”
+Menu 
+
+
+TE AMO DAVID FLORES MAURICIO --- ERES MI VIDA --- MI AMOR :3 
+
+---- Settings
+
+---- Acerca de
+
+SubnettingApp
+Aplicación de Subneteo
+Versión: 1.0
+
+16/05/2016 - David Flores Mauricio <3
+
+Proyecto
+Desarrollo móvil
+
+Instituto Tecnológico de Toluca
+
+---- Conceptos básicos
+
+Red de computadoras
+Conjunto de equipos informáticos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+
+Subred
+Es un rango de direcciones lógicas. 
+Las subredes son un método para maximizar el espacio de direcciones IPv4 de 32 bits y reducir el tamaño de las tablas de enrutamiento en una interred mayor. En cualquier clase de dirección, las subredes proporcionan un medio de asignar parte del espacio de la dirección host a las direcciones de red, lo cual permite tener más redes. 
+
+Dirección IP (IP - acrónimo para Internet Protocol)
+Número único e irrepetible que identifica de manera lógica y jerarquica, a una interfaz en red de un dispositivo que utilice el protocolo IP.
+Una dirección IPv4 se expresa por un número binario de 32 bits, en donde estos bits de la dirección se dividen en cuatro octetos. El valor decimal de cada octeto está comprendido en el intervalo de 0 a 255
+
+Broadcast
+Forma de transmisión de información donde un nodo emisor envía información a una multitud de nodos receptores de manera simultánea, sin necesidad de reproducir la misma transmisión nodo por nodo.
+
+Máscara de red
+Es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
+
+---- Información
+
+¿Qué es subneteo?
+Es la acción de dividir una red IP física en subredes lógicas o más pequeñas para que cada una de ellas pueda funcionar enviando y recibiendo paquetes como una red individual, perteneciendo a la misma red física y al mismo dominio. 
+
+¿Cuál es el objetivo del subneteo?
+Mejorar el performance de la red a través de una mejor administración, control del tráfico y seguridad al segmentar la red por función. 
+
+
+---- Ayuda
+ 
+---- Contactanos
+
+¡Contáctanos! Y con gusto te atenderemos.
+
+Si nuestro servicio te resulta interesante, y crees que te podemos ayudar, No dudes en contactarnos.
+
+Correo Electrónico:
+contacto@telumsoft.com
+
+Youtube:
+www.youtube.com/telumsoft1
+
+Facebook:
+https://www.facebook.com/telumsoft
+
+Twitter:
+https://twitter.com/telumsoft
+
+Página:
+http://www.telumsoft.com/
+
+---- Opiniones
