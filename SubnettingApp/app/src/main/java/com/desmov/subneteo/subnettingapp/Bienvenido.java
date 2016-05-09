@@ -69,12 +69,18 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
                 break;
 
             case R.id.acercaDe:
+                Intent mov2 = new Intent(Bienvenido.this,acercaDe.class);
+                startActivity(mov2);
                 break;
 
             case R.id.conceptosBasicos:
+                Intent mov3 = new Intent(Bienvenido.this, conceptosBasicos.class);
+                startActivity(mov3);
                 break;
 
-            case R.id.que:
+            case R.id.info:
+                Intent mov4 = new Intent(Bienvenido.this, informacion.class);
+                startActivity(mov4);
                 break;
 
             case R.id.utilidad:
@@ -84,6 +90,8 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
                 break;
 
             case R.id.contactanos:
+                Intent mov7 = new Intent(Bienvenido.this, contactanos.class);
+                startActivity(mov7);
                 break;
 
             case R.id.opiniones:

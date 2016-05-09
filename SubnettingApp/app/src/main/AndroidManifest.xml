@@ -29,6 +29,22 @@
         <activity
             android:name=".subneteoPrefijo"
             android:label="@string/title_activity_subneteo_prefijo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".acercaDe"
+            android:label="@string/title_activity_acerca_de"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".conceptosBasicos"
+            android:label="@string/title_activity_conceptos_basicos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".informacion"
+            android:label="@string/title_activity_informacion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactanos"
+            android:label="@string/title_activity_contactanos"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

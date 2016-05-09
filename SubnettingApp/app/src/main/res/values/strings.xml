@@ -8,8 +8,72 @@
         \n
         SubnettingApp\n
         Aplicación en desarrollo
-
+    </string>
+    <string name="ad">
+        SubnettingApp\n
+        Aplicación de Subneteo\n
+        Versión: 1.0\n
+        \n
+        16/05/2016 - David Flores Mauricio \n
+        \n
+        Proyecto\n
+        Desarrollo móvil\n
+        \n
+        Instituto Tecnológico de Toluca
     </string>
     <string name="title_activity_subneteo_ip">Subneteo</string>
     <string name="title_activity_subneteo_prefijo">Subneteo</string>
+    <string name="title_activity_acerca_de">Acerca de</string>
+    <string name="title_activity_conceptos_basicos">Conceptos básicos</string>
+
+    <string name="cb">
+        <b>Red de computadoras</b>\n
+        Conjunto de equipos informáticos y software conectados entre sí por medio de dispositivos físicos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+        \n\n
+        <b>Subred</b>\n
+        Es un rango de direcciones lógicas.
+        Las subredes son un método para maximizar el espacio de direcciones IPv4 de 32 bits y reducir el tamaño de las tablas de enrutamiento en una interred mayor. En cualquier clase de dirección, las subredes proporcionan un medio de asignar parte del espacio de la dirección host a las direcciones de red, lo cual permite tener más redes.
+        \n\n
+        <b>Dirección IP (IP - acrónimo para Internet Protocol)</b>
+        Número único e irrepetible que identifica de manera lógica y jerarquica, a una interfaz en red de un dispositivo que utilice el protocolo IP.
+        Una dirección IPv4 se expresa por un número binario de 32 bits, en donde estos bits de la dirección se dividen en cuatro octetos. El valor decimal de cada octeto está comprendido en el intervalo de 0 a 255
+        \n\n
+        <b>Broadcast</b>\n
+        Forma de transmisión de información donde un nodo emisor envía información a una multitud de nodos receptores de manera simultánea, sin necesidad de reproducir la misma transmisión nodo por nodo.
+        \n\n
+        <b>Máscara de red</b>\n
+        Es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
+    </string>
+    <string name="title_activity_informacion">Información</string>
+
+    <string name="in">
+        <b>¿Qué es subneteo?</b>\n
+        Es la acción de dividir una red IP física en subredes lógicas o más pequeñas para que cada una de ellas pueda funcionar enviando y recibiendo paquetes como una red individual, perteneciendo a la misma red física y al mismo dominio.
+        \n\n
+        <b>¿Cuál es el objetivo del subneteo?</b>\n
+        Mejorar el performance de la red a través de una mejor administración, control del tráfico y seguridad al segmentar la red por función.
+    </string>
+    <string name="title_activity_contactanos">Contactanos</string>
+
+    <string name="cont">
+        <h1><b>¡Contáctanos!</b> Y con gusto te atenderemos.</h1>\n
+        \n\n
+        Si nuestro servicio te resulta interesante, y crees que te podemos ayudar, No dudes en contactarnos.
+        \n\n
+        <b>Correo Electrónico:</b>\n
+        <a href = "contacto@telumsoft.com"><u>contacto@telumsoft.com</u></a>
+        \n\n
+        <b>Youtube:</b>\n
+        <a href = "www.youtube.com/telumsoft1"><u>www.youtube.com/telumsoft1</u></a>
+        \n\n
+        <b>Facebook:</b>\n
+        <a href = "https://www.facebook.com/telumsoft"><u>https://www.facebook.com/telumsoft</u></a>
+        \n\n
+        <b>Twitter:</b>\n
+        <a href = "https://twitter.com/telumsoft"><u>https://twitter.com/telumsoft</u></a>
+        \n\n
+        <b>Página:</b>\n
+        <a href = "http://www.telumsoft.com/"><u>http://www.telumsoft.com/</u></a>
+    </string>
+
 </resources>
