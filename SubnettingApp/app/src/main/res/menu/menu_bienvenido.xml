@@ -36,12 +36,6 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/utilidad"
-        android:orderInCategory="100"
-        android:title="Utilidad"
-        app:showAsAction="never" />
-
-    <item
         android:id="@+id/ayuda"
         android:orderInCategory="100"
         android:title="Ayuda"

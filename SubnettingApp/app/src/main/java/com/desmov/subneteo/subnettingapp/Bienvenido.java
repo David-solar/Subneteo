@@ -83,9 +83,6 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
                 startActivity(mov4);
                 break;
 
-            case R.id.utilidad:
-                break;
-
             case R.id.ayuda:
                 break;
 

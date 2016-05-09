@@ -34,7 +34,7 @@
         Es un rango de direcciones lógicas.
         Las subredes son un método para maximizar el espacio de direcciones IPv4 de 32 bits y reducir el tamaño de las tablas de enrutamiento en una interred mayor. En cualquier clase de dirección, las subredes proporcionan un medio de asignar parte del espacio de la dirección host a las direcciones de red, lo cual permite tener más redes.
         \n\n
-        <b>Dirección IP (IP - acrónimo para Internet Protocol)</b>
+        <b>Dirección IP (IP - acrónimo para Internet Protocol)</b>\n
         Número único e irrepetible que identifica de manera lógica y jerarquica, a una interfaz en red de un dispositivo que utilice el protocolo IP.
         Una dirección IPv4 se expresa por un número binario de 32 bits, en donde estos bits de la dirección se dividen en cuatro octetos. El valor decimal de cada octeto está comprendido en el intervalo de 0 a 255
         \n\n
