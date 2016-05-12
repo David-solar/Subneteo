@@ -45,6 +45,10 @@
         <activity
             android:name=".contactanos"
             android:label="@string/title_activity_contactanos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".subneteo"
+            android:label="@string/title_activity_subneteo"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
