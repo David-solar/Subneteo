@@ -150,10 +150,10 @@ public class Metodos
                 sumaHocteto(noHocteto, prefijos.get(i), lineaPrefijo);
 
             }
-            System.out.println("777777777777777777777777777777777777777");
+            /*System.out.println("777777777777777777777777777777777777777");
             System.out.println(i);
             System.out.println(lineaPrefijo[0]);
-            System.out.println(lineaPrefijo);
+            System.out.println(lineaPrefijo);*/
 
             tablaSubneteo.add(lineaPrefijo);
         }
