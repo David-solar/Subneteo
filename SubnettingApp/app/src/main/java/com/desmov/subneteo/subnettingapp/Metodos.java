@@ -18,7 +18,7 @@ public class Metodos
 
     //public static ArrayList<String> lineaPrefijo = new ArrayList<>();
 
-    public static String[] lineaPrefijo = new String[6];
+    //public static String[] lineaPrefijo = new String[6];
 
 
     public int cuartoH = -1;
@@ -83,7 +83,7 @@ public class Metodos
     {
         String n = String.valueOf(numero);
 
-        Pattern pat = Pattern.compile("[1-9]+");
+        Pattern pat = Pattern.compile("[0-9]+");
 
         Matcher mat = pat.matcher(n);
 
@@ -106,9 +106,10 @@ public class Metodos
         String ipRed =  null;
         String ipInicial = null;
 
+
         for(int i = 0; i < prefijos.size(); i++)
         {
-
+            String[] lineaPrefijo = new String[6];
             int noHocteto = (prefijos.get(i)/8) + 1;
 
             if(i == 0)
@@ -121,7 +122,7 @@ public class Metodos
                 lineaPrefijo[1] = ipRed;
                 lineaPrefijo[2] =ipInicial;
 
-                sumaHocteto(noHocteto, prefijos.get(i));
+                sumaHocteto(noHocteto, prefijos.get(i), lineaPrefijo);
 
             }
             else
@@ -142,20 +143,23 @@ public class Metodos
                     ipInicial = ip.get(0) + "." + ip.get(1) + "." + ip.get(2) + "." + (ip.get(3) + 1);
                 }
 
-
-
                 lineaPrefijo[0] = prefijo;
                 lineaPrefijo[1] = ipRed;
                 lineaPrefijo[2] =ipInicial;
 
-                sumaHocteto(noHocteto, prefijos.get(i));
+                sumaHocteto(noHocteto, prefijos.get(i), lineaPrefijo);
+
             }
+            System.out.println("777777777777777777777777777777777777777");
+            System.out.println(i);
+            System.out.println(lineaPrefijo[0]);
+            System.out.println(lineaPrefijo);
 
             tablaSubneteo.add(lineaPrefijo);
         }
     }
 
-    public void sumaHocteto(int noHocteto, int pref)
+    public void sumaHocteto(int noHocteto, int pref, String[] lineaPrefijo)
     {
         if(noHocteto == 1)
         {

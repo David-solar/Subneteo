@@ -3,6 +3,7 @@ package com.desmov.subneteo.subnettingapp;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -61,12 +62,12 @@ public class subneteoPrefijo extends AppCompatActivity implements View.OnClickLi
                 if(!Metodos.prefijos.isEmpty())
                 {
                     met.ordenarPrefijos();
+                    met.calcularSubneteo();
+                    Intent subPe = new Intent(subneteoPrefijo.this,subneteo.class);
+                    startActivity(subPe);
 
-                    System.out.println("********************************************************");
-                    for(int i = 0; i < Metodos.prefijos.size(); i++)
-                    {
-                        System.out.println(Metodos.prefijos.get(i));
-                    }
+
+
                 }
                 else
                 {
