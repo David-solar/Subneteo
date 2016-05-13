@@ -6,8 +6,15 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 
-public class subneteo extends AppCompatActivity {
+import java.util.ArrayList;
+
+public class subneteo extends AppCompatActivity implements View.OnClickListener
+{
+
+
+    Button prb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +31,39 @@ public class subneteo extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        prb = (Button) findViewById(R.id.btnPrb);
+
+        prb.setOnClickListener(this);
+
     }
 
 
+    @Override
+    public void onClick(View v)
+    {
+
+        switch (v.getId())
+        {
+            case R.id.btnPrb:
+
+                Metodos m = new Metodos();
+
+
+
+                for(int i = 0; i < m.tablaSubneteo.size(); i++)
+                {
+
+
+
+                    for(int j = 0; i < 6; i++)
+                    {
+                        
+                    }
+                }
+
+                break;
+        }
+
+    }
 }
