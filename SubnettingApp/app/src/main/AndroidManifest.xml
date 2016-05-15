@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.desmov.subneteo.subnettingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Bienvenido"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sobreDesarrollador"
+            android:label="@string/title_activity_sobre_desarrollador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".subneteoIp"
+            android:label="@string/title_activity_subneteo_ip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".subneteoPrefijo"
+            android:label="@string/title_activity_subneteo_prefijo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".acercaDe"
+            android:label="@string/title_activity_acerca_de"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".conceptosBasicos"
+            android:label="@string/title_activity_conceptos_basicos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".informacion"
+            android:label="@string/title_activity_informacion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactanos"
+            android:label="@string/title_activity_contactanos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".subneteo"
+            android:label="@string/title_activity_subneteo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

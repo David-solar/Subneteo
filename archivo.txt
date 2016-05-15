@@ -1,0 +1,5 @@
+Este es el primer archivo para subir el proyecto y hacer diferentes 
+modificaciones
+
+>>6 de mayo
+inicia la programacion de metodos para el apk
