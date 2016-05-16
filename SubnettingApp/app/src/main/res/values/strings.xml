@@ -2,12 +2,12 @@
     <string name="app_name">SubnettingApp</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_sobre_desarrollador">Sobre el desarrollador</string>
-    <string name="desarrollador">Desarrolladores:\n
-        David Flores\n
-        Guadalupe Borjas\n
-        \n
-        SubnettingApp\n
-        Aplicación en desarrollo
+    <string name="desarrollador"><b>David Flores Mauricio</b>\n
+        <a href="https://david-solar.github.io/">Perfil de github\n\n</a>
+        Estudiante Ingeniería en Sistemas Computacionales\n
+        Instituto Tecnológico de Toluca \n\n
+        Aplicación móvil\n
+        <b>SubnettingApp</b>\n
     </string>
     <string name="ad">
         SubnettingApp\n
@@ -76,5 +76,7 @@
         <a href="http://www.telumsoft.com/"><u>http://www.telumsoft.com/</u></a>
     </string>
     <string name="title_activity_subneteo">Resultado subneteo</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+    <string name="title_activity_opiniones">Opiniones</string>
 
 </resources>

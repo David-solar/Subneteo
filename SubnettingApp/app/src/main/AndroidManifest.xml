@@ -49,6 +49,14 @@
         <activity
             android:name=".subneteo"
             android:label="@string/title_activity_subneteo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ayuda"
+            android:label="@string/title_activity_ayuda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Opiniones"
+            android:label="@string/title_activity_opiniones"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
