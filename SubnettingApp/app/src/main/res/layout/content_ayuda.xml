@@ -12,4 +12,9 @@
     tools:context="com.desmov.subneteo.subnettingapp.Ayuda"
     tools:showIn="@layout/activity_ayuda">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.youtube.com/watch?v=UOU8PX7luYg"
+        android:id="@+id/textView5" />
 </RelativeLayout>
