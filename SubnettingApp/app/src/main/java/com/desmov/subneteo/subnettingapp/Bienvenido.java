@@ -63,9 +63,13 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
         {
 
             case R.id.inicio:
-                break;
+                Intent mov1 = new Intent(this,subneteoIp.class);
+                startActivity(mov1);
 
-            case R.id.action_settings:
+                Metodos.ip.clear();
+                Metodos.prefijos.clear();
+                Metodos.tablaSubneteo.clear();
+
                 break;
 
             case R.id.acercaDe:
@@ -84,6 +88,8 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
                 break;
 
             case R.id.ayuda:
+                Intent mov5 = new Intent(this, Ayuda.class);
+                startActivity(mov5);
                 break;
 
             case R.id.contactanos:
@@ -92,6 +98,8 @@ public class Bienvenido extends AppCompatActivity implements View.OnClickListene
                 break;
 
             case R.id.opiniones:
+                Intent mov8 = new Intent(Bienvenido.this, Opiniones.class);
+                startActivity(mov8);
                 break;
 
         }

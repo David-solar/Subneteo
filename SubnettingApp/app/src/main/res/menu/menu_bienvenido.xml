@@ -14,7 +14,7 @@
     <item
         android:id="@+id/inicio"
         android:orderInCategory="100"
-        android:title="Inicio"
+        android:title="Iniciar Subneteo"
         app:showAsAction="never" />
 
     <item
