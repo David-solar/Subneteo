@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class subneteo extends AppCompatActivity implements View.OnClickListener
+public class subneteo extends AppCompatActivity /*implements View.OnClickListener*/
 {
 
     //TableLayout tab = (TableLayout) findViewById(R.id.tabla);
@@ -42,16 +42,37 @@ public class subneteo extends AppCompatActivity implements View.OnClickListener
         });
 
 
-        bt = (Button) findViewById(R.id.btna);
+        //bt = (Button) findViewById(R.id.btna);
 
-        bt.setOnClickListener(this);
+        //bt.setOnClickListener(this);
 
 
+        TableLayout tt = (TableLayout) findViewById(R.id.tabla);
+
+        Tabla tab = new Tabla(this, tt);
+
+        //se le manda el array de la cabecera
+        tab.agregarCabecera(R.array.cabecera_tabla);
+
+
+        for(int i = 0; i < Metodos.tablaSubneteo.size(); i++)
+        {
+            /*ArrayList<String> elementos = new ArrayList<String>();
+            elementos.add(Integer.toString(i));
+            elementos.add("Casilla [" + i + ", 0]");
+            elementos.add("Casilla [" + i + ", 1]");
+            elementos.add("Casilla [" + i + ", 2]");
+            elementos.add("Casilla [" + i + ", 3]");
+            tab.agregarFilaTabla(elementos);*/
+
+            tab.agregarFilaTabla(Metodos.tablaSubneteo.get(i));
+
+        }
 
     }
 
 
-    @Override
+    /*@Override
     public void onClick(View v)
     {
         Metodos m = new Metodos();
@@ -73,5 +94,5 @@ public class subneteo extends AppCompatActivity implements View.OnClickListener
                 break;
         }
 
-    }
+    }*/
 }

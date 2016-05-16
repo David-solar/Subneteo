@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Array con los valores de la cabecera de la tabla-->
+    <string-array name="cabecera_tabla">
+        <item>Prefijo</item>
+        <item>Ip de red</item>
+        <item>Ip inicial</item>
+        <item>Ip final</item>
+        <item>Broadcast</item>
+        <item>Mascara</item>
+    </string-array>
+
+</resources>
