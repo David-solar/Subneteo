@@ -72,9 +72,9 @@ public class subneteo extends AppCompatActivity /*implements View.OnClickListene
 
         }
 
-        Metodos.ip.clear();
+        /*Metodos.ip.clear();
         Metodos.prefijos.clear();
-        Metodos.tablaSubneteo.clear();
+        Metodos.tablaSubneteo.clear();*/
 
     }
 
